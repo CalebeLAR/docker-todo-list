@@ -1,11 +1,8 @@
-# version: 'X'
-# services:
-#   app_A:
-#     # ...
-#     # parâmetros
-#     # ...
-#   app_B:
-#     # ...
-#     # parâmetros
-#     # ...
-#   # ...
+version: 'X'
+services:
+  frontend:
+    image: node:14
+    expose:
+      - 3001
+    
+    # ...
